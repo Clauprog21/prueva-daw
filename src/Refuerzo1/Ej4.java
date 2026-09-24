@@ -12,7 +12,7 @@ public class Ej4 {
             System.out.println("Es múltiplo ");
             if (num2%10==0) {
                 System.out.println("Es multiplo");
-            }else {
+        }else {
                 System.out.println("no es multiplo");
             }
 
