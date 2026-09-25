@@ -5,10 +5,10 @@ public class Ej8 {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         System.out.println("introduce el num");
-        if (num % 2 == 0&&num % 3 == 0) {
+        if (num % 2 == 0&& num % 3 == 0) {
             System.out.println("Es multiplo de dos y de tres");
         }else{
-            System.out.println("NO es multiplo de tres y de dos");
+            System.out.println("No es multiplo de tres y de dos");
 
         }
     }
