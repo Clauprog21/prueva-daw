@@ -3,11 +3,11 @@ public class Ejemplo22 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduce un año: ");
-        int anio = sc.nextInt();
-        if ((anio % 400 == 0) || ((anio % 4 == 0) && (anio % 100 != 0))) {
-            System.out.println("El año " + anio + " ES bisiesto.");
+        int año = sc.nextInt();
+        if ((año % 400 == 0) || ((año % 4 == 0) && (año % 100 != 0))) {
+            System.out.println("El año " + año + " ES bisiesto.");
         } else {
-            System.out.println("El año " + anio + " NO es bisiesto.");
+            System.out.println("El año " + año + " NO es bisiesto.");
         }
 
     }

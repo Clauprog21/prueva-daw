@@ -9,11 +9,8 @@ public class Ejemplo23 {
             num = sc.nextInt();
             if (num >= 0) {
                 positivos++;
-                System.out.println("num"+i+":");
-            }else{
-                System.out.println("Negativos");
             }
         }
-
+        System.out.println("Los positivos son"+positivos);
     }
 }
