@@ -2,11 +2,11 @@ import java.util.Scanner;
 public class Ejemplo23 {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
-        int num= sc.nextInt();
-        int positivos= sc.nextInt();
+        int num;
+        int positivos=0;
         System.out.println("Introduce numeros hasta 10 ");
-        for (int i = 1; i <= 10; i++) {
-            num = sc.nextInt();
+        for (int i = 0; i <= 10; i++) {
+            num= sc.nextInt();
             if (num >= 0) {
                 positivos++;
             }
