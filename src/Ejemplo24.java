@@ -11,6 +11,7 @@ public class Ejemplo24 {
                 positivos++;
             }
         }while (num != 0);
-
+    System.out.println("los positivos"+positivos);
     }
+
 }
