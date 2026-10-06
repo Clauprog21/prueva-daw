@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Cajero {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -14,8 +13,8 @@ public class Cajero {
         int salir=0;
         int opcion;
         do {
-            System.out.println("1. igresar 2. retirar 0. salir");
             opcion= sc.nextInt();
+            System.out.println("1. igresar 2. retirar 0. salir");
             if (opcion==1) {
                 ingresar= saldo+cantingresar;
                 System.out.println("te ingeresamos dinero");
