@@ -8,9 +8,9 @@ public class Ej19 {
         double ce = sc.nextDouble();
         double sf = si + ce;
         if (sf>=0) {
-            System.out.println("bien");
+            System.out.println(" voy bien");
         } else {
-            System.out.println("mal");
+            System.out.println(" voy fatal");
         }
         System.out.println("El sf es"+sf);
     }
