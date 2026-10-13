@@ -12,6 +12,5 @@ public class Ej19 {
         } else {
             System.out.println(" voy fatal");
         }
-        System.out.println("El sf es"+sf);
     }
 }
